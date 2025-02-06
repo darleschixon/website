@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./style.css" rel="stylesheet">
+  <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x/dist/cdn.min.js" defer></script>
+</head>
+<body class="bg-black lg:max-w-600 p-10 m-auto">
+  <section>
+    <div class="m-auto p-10">
+    <dotlottie-player src="https://lottie.host/4301f9ca-74c8-4f1f-8f47-4f479e99bdff/GTiL76Q7Jm.lottie" class="h-auto w-70 justify-start" background="transparent" speed="1" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+  </div>
+  <div class="m-auto">
+  <h2 class="text-white font-mono underline pl-10">Work</h2>
+  </div>
+  </section>
+  <section class="justify-center items-center lg:max-w-600 p-10 grid xl:grid-cols-3 gap-4 m-auto ">  
+    <video class="h-auto max-w-full rounded-lg" autoplay loop controls muted>
+      <source
+        src="http://127.0.0.1:5500/media/video1.mp4"
+        type="video/mp4" />
+    </video>
+    <video class="h-auto max-w-full rounded-lg" autoplay loop controls muted>
+      <source
+        src="http://127.0.0.1:5500/media/video2.mp4"
+        type="video/mp4" />
+    </video>
+    <video class="h-auto max-w-full rounded-lg" autoplay loop controls muted>
+      <source
+        src="http://127.0.0.1:5500/media/video3.mp4"
+        type="video/mp4" />
+    </video>  
+  </section>
+
+</body>
+</html>
